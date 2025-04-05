@@ -1,0 +1,26 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  font-family: "Heebo", sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+.text-gradient {
+  background: linear-gradient(to right, #30cfd0 0%, #330867 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-remark-primary {
+  color: #007aff;
+}
