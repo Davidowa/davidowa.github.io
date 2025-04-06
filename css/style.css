@@ -24,3 +24,10 @@ main {
 .text-remark-primary {
   color: #007aff;
 }
+
+nav {
+  display: block !important;
+  position: relative !important;
+  z-index: 10;
+  background-color: #000 !important; /* prueba */
+}
